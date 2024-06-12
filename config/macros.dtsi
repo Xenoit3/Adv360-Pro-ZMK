@@ -1,3 +1,9 @@
+macro_synergy_lock: macro_synergy_lock{
+compatible = "zmk,behavior-macro";
+label = "macro_synergy_lock";
+#binding-cells = <0>;
+bindings = <&kp RCTRL>, <&kp RIGHT_SHIFT>, <&kp RIGHT_ALT>, <&kp A>;
+};
 macro_wtms_trl_add: macro_wtms_trl_add{
 compatible = "zmk,behavior-macro";
 label = "macro_wtms_trl_add";
