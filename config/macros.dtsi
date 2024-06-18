@@ -1,27 +1,3 @@
-macro_select_&_copy: macro_select_&_copy{
-compatible = "zmk,behavior-macro";
-label = "macro_select_&_copy";
-#binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp A>, <&kp LCTRL>, <&kp C>;
-};
-macro_select: macro_select{
-compatible = "zmk,behavior-macro";
-label = "macro_select";
-#binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp A>;
-};
-macro_paste: macro_paste{
-compatible = "zmk,behavior-macro";
-label = "macro_paste";
-#binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp P>;
-};
-macro_copy: macro_copy{
-compatible = "zmk,behavior-macro";
-label = "macro_copy";
-#binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp C>;
-};
 macro_synergy_lock: macro_synergy_lock{
 compatible = "zmk,behavior-macro";
 label = "macro_synergy_lock";
